@@ -1,3 +1,5 @@
+![alt](images/header.png)
+
 # MODFLOW 6 and FloPy: Take Your Modeling Skills to the Next Level
 Training materials for the MODFLOW 6 and FloPy workshop offered at the 2024 Modflow and More Conference at Princeton University
 
