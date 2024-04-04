@@ -1,11 +1,11 @@
 ![alt](images/header.png)
 
 # MODFLOW 6 and FloPy: Take Your Modeling Skills to the Next Level
-Training materials for the MODFLOW 6 and FloPy workshop offered at the 2024 Modflow and More Conference at Princeton University
+Training materials for the MODFLOW 6 and FloPy workshop offered at the [2024 Modflow and More Conference](https://igwmc.princeton.edu/modflow/) at Princeton University
 
-## Location
-Princeton Univeristy, building and class room to be determined
-May 31 - June 1, 2024
+## Location and Dates
+* Princeton Univeristy, building and class room to be determined
+* May 31 - June 1, 2024
 
 
 ## Course Description
@@ -47,11 +47,12 @@ The following tentative agenda is based on a start time each morning of 8:30 AM 
 |----------|---------------------------------|----------------------------|
 | 8:30 AM  |Introductions and Class Overview |Langevin                    |
 | 9:00 AM  |First Flopy Model                |Hughes/Bonelli              |
-|10:00 AM  |XT3D                             |Provost                     |
-|10:30 AM  |BREAK                            |                            |
-|10:45 AM  |Unstructured Grids               |Larsen                      |
-|12:00 PM  |LUNCH                            |                            |
-| 1:15 PM  |Advanced Packages                |Hughes/Morway               |
+|10:30 AM  |*BREAK*                          |                            |
+|10:45 AM  |XT3D                             |Provost                     |
+|12:00 PM  |*LUNCH*                          |                            |
+| 1:15 PM  |Unstructured Grids               |Larsen                      |
+| 2:30 AM  |BREAK                            |                            |
+| 2:45 PM  |Advanced Packages                |Hughes/Morway               |
 | 4:30 PM  |ADJOURN                          |                            |
 
 ### Tuesday, June 1, 2024
@@ -61,14 +62,14 @@ The following tentative agenda is based on a start time each morning of 8:30 AM 
 | 8:30 AM  |Solute and Heat Transport        |Morway                      |
 | 9:30 AM  |Variable density flow            |Langevin                    |
 |10:00 AM  |NetCDF                           |Reno                        |
-|10:30 AM  |BREAK                            |                            |
+|10:30 AM  |*BREAK*                          |                            |
 |10:45 AM  |Particle Tracking                |Provost/Bonelli             |
-|12:00 PM  |LUNCH                            |                            |
+|12:00 PM  |*LUNCH*                          |                            |
 | 1:15 PM  |Parallel MODFLOW                 |Russcher/Hughes/Larsen      |
-| 2:30 AM  |BREAK                            |                            |
+| 2:30 AM  |*BREAK*                          |                            |
 | 2:45 PM  |MODFLOW API                      |Hughes/Russcher/Larsen      |
 | 4:00 PM  |Wrapup                           |All                         |
-| 4:30 PM  |Adjourn                          |                            |
+| 4:30 PM  |ADJOURN                          |                            |
 
 
 ## Software
