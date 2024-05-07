@@ -45,31 +45,33 @@ The following tentative agenda is based on a start time each morning of 8:30 AM 
 
 |Time      |Topic                            |Lead                        |
 |----------|---------------------------------|----------------------------|
-| 8:30 AM  |Introductions and Class Overview |Langevin                    |
-| 9:00 AM  |First Flopy Model                |Hughes/Bonelli              |
+| 8:00 AM  |Introductions and Overview       |Langevin                    |
+| 8:45 AM  |First FloPy Model                |Hughes                      |
+|10:00 AM  |Mesh generation with FloPy       |Larsen                      |
 |10:30 AM  |*BREAK*                          |                            |
-|10:45 AM  |XT3D                             |Provost                     |
+|11:00 AM  |XT3D                             |Provost                     |
 |12:00 PM  |*LUNCH*                          |                            |
-| 1:15 PM  |Unstructured Grids               |Larsen                      |
-| 2:30 AM  |BREAK                            |                            |
-| 2:45 PM  |Advanced Packages                |Hughes/Morway               |
-| 4:30 PM  |ADJOURN                          |                            |
+| 1:15 PM  |Solute and Heat Transport        |Morway                      |
+| 2:30 AM  |*BREAK*                          |                            |
+| 3:00 PM  |Advanced Packages                |Hughes/Morway               |
+| 5:00 PM  |ADJOURN                          |                            |
 
 ### Tuesday, June 1, 2024
 
 |Time      |Topic                            |Lead                        |
 |----------|---------------------------------|----------------------------|
-| 8:30 AM  |Solute and Heat Transport        |Morway                      |
-| 9:30 AM  |Variable density flow            |Langevin                    |
-|10:00 AM  |NetCDF                           |Reno                        |
+| 8:00 AM  |Variable density flow            | Langevin/Panday/Morway     |
+| 9:00 AM  |Particle Tracking in MODFLOW 6   | Bonelli/Provost            |
+|10:00 AM  |Parallel MODFLOW                 | Russcher                   |
 |10:30 AM  |*BREAK*                          |                            |
-|10:45 AM  |Particle Tracking                |Provost/Bonelli             |
+|10:45 AM  |Parallel MODFLOW (cont)          | Russcher/Hughes/Larsen     |
 |12:00 PM  |*LUNCH*                          |                            |
-| 1:15 PM  |Parallel MODFLOW                 |Russcher/Hughes/Larsen      |
+| 1:15 PM  |MODFLOW API                      | Hughes/Russcher/Larsen     |
 | 2:30 AM  |*BREAK*                          |                            |
-| 2:45 PM  |MODFLOW API                      |Hughes/Russcher/Larsen      |
-| 4:00 PM  |Wrapup                           |All                         |
-| 4:30 PM  |ADJOURN                          |                            |
+| 3:00 PM  |MODFLOW API (cont)               | Hughes/Russcher/Larsen     |
+| 4:00 PM  |NetCDF                           | Reno                       |
+| 4:30 PM  |Future Directions and Wrapup     | All                        |
+| 5:00 PM  |ADJOURN                          |                            |
 
 
 ## Software
