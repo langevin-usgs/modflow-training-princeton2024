@@ -75,4 +75,5 @@ The following tentative agenda is based on a start time each morning of 8:30 AM 
 
 
 ## Software
-TBD
+
+This workshop consists of jupyter notebooks that use FloPy to create, run, and post-process MODFLOW models.  In order for workshop attendees to follow along and run the notebooks, software must be installed prior to the workshop.  Click [here](./SOFTWARE.md) for software installation instructions.
