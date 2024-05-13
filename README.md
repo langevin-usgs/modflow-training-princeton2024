@@ -33,13 +33,12 @@ This course is suited for groundwater modelers interested in learning about the 
 * Sorab Panday, GSI Environmental
 * Eric Morway, US Geological Survey
 * Josh Larsen, US Geological Survey
-* Mike Fienen, US Geological Survey
 * Wes Bonelli, University Corporation for Atmospheric Research
 * Michael Reno, University Corporation for Atmospheric Research
 
 ## Agenda
 
-The following tentative agenda is based on a start time each morning of 8:30 AM and an ending time each day of 4:30 PM.  The agenda may be adjusted during the week in response to student requests.
+The following agenda is based on a start time each morning of 8:00 AM and an ending time each day of 5:00 PM.
 
 ### Monday, May 31, 2024
 
