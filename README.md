@@ -40,22 +40,22 @@ This course is suited for groundwater modelers interested in learning about the 
 
 The following agenda is based on a start time each morning of 8:00 AM and an ending time each day of 5:00 PM.
 
-### Monday, May 31, 2024
+### Friday, May 31, 2024
 
 |Time      |Topic                            |Lead                        |
 |----------|---------------------------------|----------------------------|
 | 8:00 AM  |Introductions and Overview       |Langevin                    |
 | 8:45 AM  |First FloPy Model                |Hughes                      |
 |10:00 AM  |Mesh generation with FloPy       |Larsen                      |
-|10:30 AM  |*BREAK*                          |                            |
-|11:00 AM  |XT3D                             |Provost                     |
+|10:45 AM  |*BREAK*                          |                            |
+|11:15 AM  |XT3D                             |Provost                     |
 |12:00 PM  |*LUNCH*                          |                            |
-| 1:15 PM  |Solute and Heat Transport        |Morway                      |
+| 1:15 PM  |Solute and Heat Transport        |Morway/Panday               |
 | 2:30 AM  |*BREAK*                          |                            |
 | 3:00 PM  |Advanced Packages                |Hughes/Morway               |
 | 5:00 PM  |ADJOURN                          |                            |
 
-### Tuesday, June 1, 2024
+### Saturday, June 1, 2024
 
 |Time      |Topic                            |Lead                        |
 |----------|---------------------------------|----------------------------|

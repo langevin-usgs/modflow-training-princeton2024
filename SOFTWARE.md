@@ -1,5 +1,5 @@
 # Software Installation
-To get the most out of this workshop, you will need to come prepared with a laptop computer that has Python installed.  If you are familiar with conda environments and can create a new conda environment using an environment.yml file, then skip ahead to Part 2.  For all others, we recommend using the Miniforge software to download and install Python and required dependencies needed for the workshop.  
+To get the most out of this workshop, you will need to come prepared with a laptop computer that has Python installed.  **If you are familiar with conda environments and can create a new conda environment using an environment.yml file, then skip ahead to Part 2**.  For all others, we recommend using the Miniforge software to download and install Python and required dependencies needed for the workshop.  
 
 The following instructions will guide you through the installation process and setup of a mfandmore2024 environment.
 
@@ -60,7 +60,7 @@ dependencies:
   - statsmodels
 ```
 
-## Part 3.  Create the mfandmore2024 Environment
+## Part 3.  Create the `mfandmore2024` Environment
 
 1. Start the miniforge prompt from the Windows start menu.  This will bring up a Windows terminal.
 2. At the terminal prompt enter the following command, where `<path to file>` is the location of the `environment.yml` file that you created in Part 2.  You will need to be connected to the internet for this to work properly.  The installation process may take a couple of minutes.
@@ -80,7 +80,13 @@ mamba activate mfandmore2024
 jupyter lab
 ```
 
-The setup is complete.  We will start using jupyter notebooks the morning of the workshop.
+For most users, the setup is complete at this point.  For those working on a Mac or Linux laptop, please proceed to Part 4.
+
+
+## Part 4.  Building the Parallel Version of MODFLOW 6 (only required for Mac and Linux computers)
+
+If you are using a Mac or Linux laptop for the workshop, then you will need to build the parallel version of MODFLOW. (Note that this is not required for Windows as a parallel version of MODFLOW for Windows is available online.) Instructions for building the parallel version of MODFLOW 6 are located [here](./build_parallel_mf6.md).
+
 
 # Preparation for the Workshop
 If you have never used Python before, there are many online resources for getting started.  A recommendation is to start with the tutorial at https://cscircles.cemc.uwaterloo.ca/.
