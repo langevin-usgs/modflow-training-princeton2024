@@ -1231,7 +1231,7 @@ def plot_sfr_results(gwf, silent=True):
     rnames = {
         3: "Upper Green Creek",
         14: "Little Creek",
-        26: "Lower3 Green Creek",
+        26: "Lower Green Creek",
         35: "Blue River"
     }
     with styles.USGSPlot():
