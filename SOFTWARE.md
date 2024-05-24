@@ -85,9 +85,11 @@ jupyter lab
 For most users, the setup is complete at this point.  For those working on a Mac or Linux laptop, please proceed to Part 4.
 
 
-## Part 4.  Building the Parallel Version of MODFLOW 6 (only required for Mac and Linux computers)
+## Part 4.  Obtaining MODFLOW 6
 
-If you are using a Mac or Linux laptop for the workshop, then you will need to build the parallel version of MODFLOW. (Note that this is not required for Windows as a parallel version of MODFLOW for Windows is available online.) Instructions for building the parallel version of MODFLOW 6 are located [here](./build_parallel_mf6.md).
+We will be using the parallel version of MODFLOW 6 in this workshop.  If you are working on Windows, then you can download the parallel version of MODFLOW 6 from [here](https://github.com/MODFLOW-USGS/modflow6/releases/tag/6.5.0).  The distribution file for windows that includes the parallel version is called `mf6.5.0_win64par.zip`.
+
+If you are using a Mac or Linux laptop for the workshop, then you will need to build the parallel version of MODFLOW.  We have simplified the build process, which can be completed in just a few minutes.  Instructions for building the parallel version of MODFLOW 6 are located [here](./build_parallel_mf6.md).
 
 
 # Preparation for the Workshop
