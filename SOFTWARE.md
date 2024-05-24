@@ -1,5 +1,5 @@
 # Software Installation
-To get the most out of this workshop, you will need to come prepared with a laptop computer that has Python installed.  **If you are familiar with conda environments and can create a new conda environment using an environment.yml file, then skip ahead to Part 2**.  For all others, we recommend using the Miniforge software to download and install Python and required dependencies needed for the workshop.  
+To get the most out of this workshop, you will need to come prepared with a laptop computer that has Python installed.  **If you are familiar with conda environments and know how to create a new conda environment using an environment.yml file, then skip ahead to Part 2**.  For all others, we recommend using the Miniforge software to download and install Python and required dependencies needed for the workshop.  
 
 The following instructions will guide you through the installation process and setup of a mfandmore2024 environment.
 
@@ -58,6 +58,8 @@ dependencies:
   - requests
   - pytest
   - statsmodels
+  - modflowapi
+  - pymetis
 ```
 
 ## Part 3.  Create the `mfandmore2024` Environment
