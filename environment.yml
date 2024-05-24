@@ -1,4 +1,4 @@
-name: modflowandmore2024
+name: mfmtest
 channels:
   - conda-forge
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   - matplotlib >=1.4.0
   - pandas >=2.0.0
   - scipy
-  - flopy
+  - flopy >= 3.7.0
 
   # other useful packages
   - pip
