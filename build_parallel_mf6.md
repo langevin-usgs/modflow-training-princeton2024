@@ -11,12 +11,10 @@ git clone https://github.com/MODFLOW-USGS/modflow6.git
 
 This will download the repository and create a new folder called `modflow6` in the working directory.
 
-## Step 2. Create the `mf6xtd` Conda Environment
-Next, you will create a conda environment, called `mf6xtd`, that will be used to compile the parallel version of MODFLOW 6.  The `mf6xtd` environment will have all of the software needed to compile serial and parallel versions of MODFLOW 6.
+## Step 2. Update your `mfandmore2024` Conda Environment
+Next, you will update your `mfandmore2024` environment with dependencies for building MODFLOW 6.
 
-The steps for creating the `mf6xtd` conda environment are as follows
-
-Create a an environment file that has the following contents.  Call this file `mf6xtd_environment.yml`
+Create an environment file that has the following contents.  Call this file `mf6xtd_environment.yml`
 
 ```
 channels:
@@ -32,7 +30,7 @@ dependencies:
   - ninja
 ```
 
-This `mf6xtd_environment.yml` will be used to create the `mf6xtd` environment by running the following command:
+The dependencies in `mf6xtd_environment.yml` will be added to your `mfandmore2024` environment by running the following command:
 
 ```
 conda deactivate
