@@ -1,4 +1,4 @@
-name: mfmtest
+name: modflowandmore2024
 channels:
   - conda-forge
 dependencies:
