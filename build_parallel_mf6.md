@@ -2,15 +2,17 @@
 
 This file provides the instructions for obtaining MODFLOW 6 source code, installing a conda environment with a Fortran compiler and the required compiling dependencies, and building the parallel version of MODFLOW 6.
 
-## Cloning MODFLOW Resources from GitHub
-A first step is to clone the GitHub repositories for MODFLOW 6 and the MODFLOW 6 parallel class.
+## Step 1. Clone the modflow6 repository from GitHub
+The following command can be used to clone the modflow6 repository.
 
 ```
 git clone https://github.com/MODFLOW-USGS/modflow6.git
 ```
 
-## Installing the `mf6xtd` Conda Environment
-Next, you will create a conda environment, called `mf6xtd`, that will be used for thie class.  The `mf6xtd` environment will have all of the software needed to compile serial and parallel versions of MODFLOW 6, and the Python packages needed to pre- and post-process MODFLOW models.
+This will download the repository and create a new folder called `modflow6` in the working directory.
+
+## Step 2. Create the `mf6xtd` Conda Environment
+Next, you will create a conda environment, called `mf6xtd`, that will be used to compile the parallel version of MODFLOW 6.  The `mf6xtd` environment will have all of the software needed to compile serial and parallel versions of MODFLOW 6.
 
 The steps for creating the `mf6xtd` conda environment are as follows
 
@@ -32,17 +34,18 @@ dependencies:
   - ninja
 ```
 
-From this environment file, the `mf6xtd` environment will be created by initiating the following command:
+This `mf6xtd_environment.yml` will be used to create the `mf6xtd` environment by running the following command:
 
 ```
 conda env create -f mf6xtd_environment.yml
 ```
 
-## Building MODFLOW
+## Step 3. Build MODFLOW
 
 To build the parallel version of MODFLOW, simply run the following commands from a terminal with the `mf6xtd` environment activated.
 
 ```
+conda activate mf6xtd
 cd modflow6
 meson setup builddir -Ddebug=false -Dparallel=true --prefix=$(pwd) --libdir=bin
 meson install -C builddir
@@ -51,6 +54,11 @@ meson test --verbose --no-rebuild -C builddir
 
 If everything is working properly, then the last command should show that the tests completed ok and without errors.
 
-## Make a Symbolic Link
+## Step 4. Make Symbolic Link
+For convenience you may wish to create a sybmolic link to the MODFLOW 6 executable, which will be located in the `bin` folder of the modflow6 repository if Step 3 was successful.
 
-xxx -- Provide instructions for symbolically linking to the newly compiled binary executable.
+To make this new MODFLOW 6 executable available for future simulations, add a symbolic link to the newly compiled binary executable (`./bin/mf6`).  If you created the `mfandmore2024` environment for the workshop, then the `bin` folder for that environment will likely be located here: `~/miniconda3/envs/mfandmore2024/bin`.  The following command will put a symbolic link to the parallel version of MODFLOW in that conda environment folder.  This will make the parallel version of MODFLOW 6 available whenever that environment is active.
+
+```
+ln ./bin/mf6 ~/miniconda3/envs/mfandmore2024/bin/mf6
+```
