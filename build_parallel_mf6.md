@@ -19,8 +19,6 @@ The steps for creating the `mf6xtd` conda environment are as follows
 Create a an environment file that has the following contents.  Call this file `mf6xtd_environment.yml`
 
 ```
-name: mf6xtd
-
 channels:
   - conda-forge
 
@@ -37,7 +35,8 @@ dependencies:
 This `mf6xtd_environment.yml` will be used to create the `mf6xtd` environment by running the following command:
 
 ```
-conda env create -f mf6xtd_environment.yml
+conda deactivate
+conda env update --name mfandmore2024 --file mf6xtd_environment.yml --prune
 ```
 
 ## Step 3. Build MODFLOW
@@ -45,7 +44,7 @@ conda env create -f mf6xtd_environment.yml
 To build the parallel version of MODFLOW, simply run the following commands from a terminal with the `mf6xtd` environment activated.
 
 ```
-conda activate mf6xtd
+conda activate mfandmore2024
 cd modflow6
 meson setup builddir -Ddebug=false -Dparallel=true --prefix=$(pwd) --libdir=bin
 meson install -C builddir
