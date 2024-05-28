@@ -4,9 +4,10 @@
 Training materials for the MODFLOW 6 and FloPy workshop offered at the [2024 Modflow and More Conference](https://igwmc.princeton.edu/modflow/) at Princeton University
 
 ## Location and Dates
-* Princeton Univeristy, building and class room to be determined
+* Princeton University
+* Computer Science Building 105
 * May 31 - June 1, 2024
-
+* Computer Science Building 105
 
 ## Course Description
 MODFLOW 6 is the current version of MODFLOW released and supported by the USGS.  The program is under active development by the short course instructors and the broader hydrologic community.  This short course introduces participants to MODFLOW 6 and its growing simulation capabilities.  For each topic included in the short course, there will be a short lecture on the underlying concepts and implementation followed by a live demonstration.  Live demonstrations will use the Python language, Jupyter Notebooks, and the FloPy Package to create, run, and post-process MODFLOW 6 simulations. 
@@ -23,7 +24,7 @@ The following topics will be covered during the short course.
 *	Using the MODFLOW Application Programming Interface (API) to couple with other models, create custom MODFLOW packages, and control MODFLOW during a simulation
 
 ## Intended Audience
-This course is suited for groundwater modelers interested in learning about the USGS version of MODFLOW, its newer capabilities, and how to use FloPy to create and run simulations.  For attendees wanting to run live demonstrations, instructions for installing the required software on a laptop computer (Windows, Mac, and Linux operating systems will be supported) will be provided in advance of the course.  No previous experience with FloPy or Python is required, however, participants without any Python experience may benefit from additional preparation prior to the class.
+This course is suited for groundwater modelers interested in learning about the USGS version of MODFLOW, its newer capabilities, and how to use FloPy to create and run simulations.  For attendees wanting to run live demonstrations, instructions for installing the required software on a laptop computer (Windows, Mac, and Linux operating systems will be supported) are provided [here](./SOFTWARE.md).  No previous experience with FloPy or Python is required, however, participants without any Python experience may benefit from additional preparation prior to the class.
 
 ## Instructors
 * Chris Langevin, US Geological Survey
