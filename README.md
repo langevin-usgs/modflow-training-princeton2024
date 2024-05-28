@@ -7,7 +7,6 @@ Training materials for the MODFLOW 6 and FloPy workshop offered at the [2024 Mod
 * Princeton University
 * Computer Science Building 105
 * May 31 - June 1, 2024
-* Computer Science Building 105
 
 ## Course Description
 MODFLOW 6 is the current version of MODFLOW released and supported by the USGS.  The program is under active development by the short course instructors and the broader hydrologic community.  This short course introduces participants to MODFLOW 6 and its growing simulation capabilities.  For each topic included in the short course, there will be a short lecture on the underlying concepts and implementation followed by a live demonstration.  Live demonstrations will use the Python language, Jupyter Notebooks, and the FloPy Package to create, run, and post-process MODFLOW 6 simulations. 
