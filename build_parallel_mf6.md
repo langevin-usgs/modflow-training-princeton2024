@@ -11,37 +11,19 @@ git clone https://github.com/MODFLOW-USGS/modflow6.git
 
 This will download the repository and create a new folder called `modflow6` in the working directory.
 
-## Step 2. Update your `mfandmore2024` Conda Environment
-Next, you will update your `mfandmore2024` environment with dependencies for building MODFLOW 6.
+## Step 2. Activate your `mfandmore2024` Conda Environment
 
-Create an environment file that has the following contents.  Call this file `mf6xtd_environment.yml`
-
-```
-channels:
-  - conda-forge
-
-dependencies:
-  - pkg-config
-  - openmpi
-  - gfortran
-  - petsc
-  - meson>=1.1.0
-  - ninja
-```
-
-The dependencies in `mf6xtd_environment.yml` will be added to your `mfandmore2024` environment by running the following command:
+Activate the `mfandmore2024` environment:
 
 ```
-conda deactivate
-conda env update --name mfandmore2024 --file mf6xtd_environment.yml
+conda activate mfandmore2024
 ```
 
 ## Step 3. Build MODFLOW
 
-To build the parallel version of MODFLOW, simply run the following commands from a terminal with the `mf6xtd` environment activated.
+To build the parallel version of MODFLOW, simply run the following commands from a terminal.
 
 ```
-conda activate mfandmore2024
 cd modflow6
 meson setup builddir -Ddebug=false -Dparallel=true --prefix=$(pwd) --libdir=bin
 meson install -C builddir

@@ -12,55 +12,19 @@ The following instructions will guide you through the installation process and s
 ## Part 2 -- Create an Environment File
 We will use an environment file to create a containerized version of Python and the Python packages needed for the class.  An environment file is simply a list of packages that we want to install in our environment.
 
-1. Using a text editor, such as Notepad or Notepad++, create a file called `environment.yml`.  It should have the following 
-contents.  Save this file to your hard drive, preferably in your user home folder so that it can be easily accessed in the next step. (Caution!  Notepad will automatically append a .txt suffix to your file name.)
+1. Using a text editor, such as Notepad or Notepad++, create a file called `environment.yml`.  It should contain the information in [this environment file](./environment.yml).  Save this file to your hard drive, preferably in your user home folder so that it can be easily accessed in the next step. (Caution!  Notepad will automatically append a .txt suffix to your file name; you don't want this to happen.)
+
+2. **For Mac and Linux users only!** You will need to add six additional dependencies to the `environment.yml` file from step 1.  The following dependencies are also required: 
 
 ```
-name: mfandmore2024
-channels:
-  - conda-forge
-dependencies:
-
-  # primary dependencies
-  - python=3.12
-  - numpy
-  - matplotlib
-  - scipy
-  - pandas
-  - flopy
-
-  # other useful packages
-  - pip
-  - jupyter
-  - jupytext
-  - jupyterlab
-  - openpyxl
-  - xlrd
-  - netcdf4
-  - pyshp
-  - rasterio
-  - rasterstats
-  - fiona
-  - descartes
-  - pyproj
-  - shapely
-  - geos
-  - geojson
-  - geopandas
-  - xarray
-  - rioxarray
-  - uxarray
-  - pyyaml
-  - rtree
-  - pyvista
-  - vtk
-  - imageio
-  - requests
-  - pytest
-  - statsmodels
-  - modflowapi
-  - pymetis
-```
+  # parallel modflow build dependencies
+  - pkg-config
+  - openmpi
+  - gfortran
+  - petsc
+  - meson>=1.1.0
+  - ninja
+```  
 
 ## Part 3.  Create the `mfandmore2024` Environment
 
