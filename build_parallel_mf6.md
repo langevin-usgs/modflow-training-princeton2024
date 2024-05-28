@@ -23,7 +23,6 @@ channels:
 dependencies:
   - pkg-config
   - openmpi
-  - gcc
   - gfortran
   - petsc
   - meson>=1.1.0
@@ -34,7 +33,7 @@ The dependencies in `mf6xtd_environment.yml` will be added to your `mfandmore202
 
 ```
 conda deactivate
-conda env update --name mfandmore2024 --file mf6xtd_environment.yml --prune
+conda env update --name mfandmore2024 --file mf6xtd_environment.yml
 ```
 
 ## Step 3. Build MODFLOW
