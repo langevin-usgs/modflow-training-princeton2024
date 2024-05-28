@@ -5,8 +5,11 @@ The following instructions will guide you through the installation process and s
 
 ## Part 1 -- Install Miniforge
 1. Go to the miniforge website and download the installer (https://github.com/conda-forge/miniforge) for your platform.
+
 2. Run the installer program that you downloaded.  On Windows the installer is called `Miniforge3-Windows-x86_64.exe`.
+
 3. Click through the installer options, and select "Just Me (recommended)" if asked.  Default installation options should be fine, with the exception that you should select an installation location that does not have any special characters or spaces in it.
+
 4. After installation, you should see "Miniforge Prompt" as a program under the Windows Start menu.
 
 ## Part 2 -- Create an Environment File
@@ -28,19 +31,23 @@ We will use an environment file to create a containerized version of Python and 
 
 ## Part 3.  Create the `mfandmore2024` Environment
 
-1. Start the miniforge prompt from the Windows start menu.  This will bring up a Windows terminal.
+1. Start the miniforge prompt from the Windows start menu (or equivalent on Mac or Linux) to bring up a terminal.
+
 2. At the terminal prompt enter the following command, where `<path to file>` is the location of the `environment.yml` file that you created in Part 2.  You will need to be connected to the internet for this to work properly.  The installation process may take a couple of minutes.
 ```
 mamba env create --file <path to file>/environment.yml
 ```
+
 3.  After the environment has been installed, you may activate this new class environment with the following command
 ```
 mamba activate mfandmore2024
 ```
+
 4.  The windows terminal prompt should reflect the current environment:
 ```
 (mfandmore2024) C:\Users\JaneDoe>
 ```
+
 5.  We will be using jupyter notebooks in the workshop.  To test if jupyter is installed and working properly use the following command.  After entering this command, the default web browswer should open to a Jupyter Lab page.
 ```
 jupyter lab
@@ -51,7 +58,7 @@ For most users, the setup is complete at this point.  For those working on a Mac
 
 ## Part 4.  Obtaining MODFLOW 6
 
-We will be using the parallel version of MODFLOW 6 in this workshop.  If you are working on Windows, then you can download the parallel version of MODFLOW 6 from [here](https://github.com/MODFLOW-USGS/modflow6/releases/tag/6.5.0).  The distribution file for windows that includes the parallel version is called `mf6.5.0_win64par.zip`.
+We will be using the parallel version of MODFLOW 6 in this workshop.  If you are working on Windows, then you can download the parallel version of MODFLOW 6 from [here](https://github.com/MODFLOW-USGS/modflow6/releases/tag/6.5.0).  Note that we will also walk through this step during the workshop.  The distribution file for windows that includes the parallel version is called `mf6.5.0_win64par.zip`.
 
 If you are using a Mac or Linux laptop for the workshop, then you will need to build the parallel version of MODFLOW.  We have simplified the build process, which can be completed in just a few minutes.  Instructions for building the parallel version of MODFLOW 6 are located [here](./build_parallel_mf6.md).
 

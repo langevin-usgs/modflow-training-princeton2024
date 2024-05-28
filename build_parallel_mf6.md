@@ -1,6 +1,6 @@
 # Building the Parallel Version of MODFLOW 6
 
-This file provides the instructions for obtaining MODFLOW 6 source code, installing a conda environment with a Fortran compiler and the required compiling dependencies, and building the parallel version of MODFLOW 6.
+These are the instructions for obtaining the MODFLOW 6 source code and building the parallel version of MODFLOW 6.  Note that requires adding additional dependencies to the `environment.yml` file described on the [software](./SOFTWARE.md) page.
 
 ## Step 1. Clone the modflow6 repository from GitHub
 The following command can be used to clone the modflow6 repository.
@@ -30,7 +30,22 @@ meson install -C builddir
 meson test --verbose --no-rebuild -C builddir
 ```
 
-If everything is working properly, then the last command should show that the tests completed ok and without errors.
+If everything is working properly, then the last command should show that the tests completed ok and without errors.  The message should look something like the following:
+
+```
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+5/5 Parallel simulation test - 2 cores  OK              0.20s
+ 
+ 
+Ok:                 5
+Expected Fail:      0
+Fail:               0
+Unexpected Pass:    0
+Skipped:            0
+Timeout:            0
+ 
+Full log written to /home/user/modflow-training-princeton2024/modflow6/builddir/meson-logs/testlog.txt has context menu
+```
 
 ## Step 4. Make Symbolic Link
 For convenience you may wish to create a sybmolic link to the MODFLOW 6 executable, which will be located in the `bin` folder of the modflow6 repository if Step 3 was successful.
