@@ -48,7 +48,7 @@ Full log written to /home/user/modflow-training-princeton2024/modflow6/builddir/
 ```
 
 ## Step 4. Make Symbolic Link
-For convenience you may wish to create a sybmolic link to the MODFLOW 6 executable, which will be located in the `bin` folder of the modflow6 repository if Step 3 was successful.
+For convenience you may wish to create a symbolic link to the MODFLOW 6 executable, which will be located in the `bin` folder of the modflow6 repository if Step 3 was successful.
 
 To make this new MODFLOW 6 executable available for future simulations, add a symbolic link to the newly compiled binary executable (`./bin/mf6`).  If you created the `mfandmore2024` environment for the workshop, then the `bin` folder for that environment will likely be located here: `~/miniconda3/envs/mfandmore2024/bin`.  The following command will put a symbolic link to the parallel version of MODFLOW in that conda environment folder.  This will make the parallel version of MODFLOW 6 available whenever that environment is active.
 
