@@ -55,3 +55,19 @@ The following command, executed from within the modflow6 directory, will add a s
 ```
 ln ./bin/mf6 $CONDA_PREFIX/bin/mf6
 ```
+
+and a symbolic link to the MODFLOW shared library (`libmf6`):
+
+_On Linux_
+
+```
+ln ./bin/libmf6.so $CONDA_PREFIX/bin/libmf6.so
+```
+
+_On MacOS_
+
+```
+ln ./bin/libmf6.dylib $CONDA_PREFIX/bin/libmf6.dylib
+```
+
+
