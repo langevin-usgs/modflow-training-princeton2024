@@ -1,7 +1,9 @@
 ![alt](images/header.png)
 
 # MODFLOW 6 and FloPy: Take Your Modeling Skills to the Next Level
-Training materials for the MODFLOW 6 and FloPy workshop offered at the [2024 Modflow and More Conference](https://igwmc.princeton.edu/modflow/) at Princeton University
+Training materials for the MODFLOW 6 and FloPy workshop offered at the [2024 Modflow and More Conference](https://igwmc.princeton.edu/modflow/) at Princeton University.  
+
+Presentations from the workshop are available as a GitHub Release, and can be accessed [here](https://github.com/langevin-usgs/modflow-training-princeton2024/releases).
 
 ## Location and Dates
 * Princeton University
